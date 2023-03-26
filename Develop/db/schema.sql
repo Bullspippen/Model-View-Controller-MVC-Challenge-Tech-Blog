@@ -1,0 +1,5 @@
+ROP DATABASE IF EXISTS CMSblog_db;
+
+CREATE DATABASE CMSblog_db;
+
+USE CMSblog_db;
