@@ -1,0 +1,13 @@
+<section class="card">
+  <a href="/post/{{id}}">
+    <header>{{name}} Posted by {{user.username}} on {{format_date date}}</header>
+  </a>
+  <p>Preview: {{format_line body}}</p>
+  {{#each comments as |comment|}}
+  <a href="/comment/{{id}}">
+    <header>{{body}}</header>
+  </a>
+  {{/each}}
+
+
+</section>
